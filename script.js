@@ -4,7 +4,6 @@ function volume_sphere() {
 	let r = Number(form.radius.value)
 	form.volume.value = (4*Math.PI*(r**3) / 3);
 	return false;
-	return false;
   
 } 
 
